@@ -43,34 +43,34 @@ function Navbar() {
         <div className='collapse navbar-collapse' id='ftco-nav'>
           <ul className='navbar-nav m-auto'>
             <li className='nav-item active'>
-              <a href='#' className='nav-link'>
+              <a href='/' className='nav-link'>
                 Home
               </a>
             </li>
             
             <li className='nav-item'>
-              <a href='#' className='nav-link'>
+              <a href='/about' className='nav-link'>
                 About
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#' className='nav-link'>
+              <a href='/store' className='nav-link'>
                 Store
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#' className='nav-link'>
+              <a href='/contact' className='nav-link'>
                 Contact
               </a>
             </li>
             
             <li className='nav-item '>
-              <a href='#' className='nav-link'>
+              <a href='/signup' className='nav-link'>
                 Sign Up
               </a>
             </li>
             <li className='nav-item'>
-              <a href='#' className='nav-link'>
+              <a href='/login' className='nav-link'>
                 Log In
               </a>
             </li>

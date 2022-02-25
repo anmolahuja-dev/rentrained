@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 function HomePage() {
   return (
-    <div>
+    <div className='home'>
       <div
         id='carouselExampleSlidesOnly'
         className='carousel slide'

@@ -1,6 +1,6 @@
 
 body {
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -71,4 +71,30 @@ body {
 .contactheading {
     font-size: 60px;
     font-family: 'Abhaya libre', Courier, monospace;
+}
+
+.categoriesnav {
+    position: relative;
+    padding: 10px 15px;
+    margin:auto;
+}
+
+.categories:hover {
+    color:black;
+}
+
+.dropdown-menu {
+    width: 60rem;
+    height: 20rem;
+}
+.categorieslist {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.categorylink {
+    color:black
+}
+.categorylink:hover {
+    color: #f1bc31;
 }
