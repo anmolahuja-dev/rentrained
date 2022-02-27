@@ -201,47 +201,45 @@ function Store() {
         </div>
       </nav>
 
-        <div className="row">
-            <div className="col-3">
+        <div className="container">
+        <div className="row mt-2 mb-4">
+            <div className="col-lg-4 col-md-6">
                 <ProductCard/> 
             </div>
-            <div className="col-3">
+            <div className="col-lg-4 col-md-6 ">
                 <ProductCard/> 
             </div>
-            <div className="col-3">
-                <ProductCard/> 
-            </div>
-            <div className="col-3">
-                <ProductCard/> 
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-3">
-                <ProductCard/> 
-            </div>
-            <div className="col-3">
-                <ProductCard/> 
-            </div>
-            <div className="col-3">
-                <ProductCard/> 
-            </div>
-            <div className="col-3">
+            <div className="col-lg-4 col-md-6  ">
                 <ProductCard/> 
             </div>
         </div>
-        <div className="row">
-            <div className="col-3">
+        <div className="row mt-2 mb-4">
+            <div className="col-lg-4 col-md-6">
                 <ProductCard/> 
             </div>
-            <div className="col-3">
+            <div className="col-lg-4 col-md-6 ">
                 <ProductCard/> 
             </div>
-            <div className="col-3">
+            <div className="col-lg-4 col-md-6  ">
                 <ProductCard/> 
             </div>
-            <div className="col-3">
+        </div>
+        <div className="row mt-2 mb-4">
+            <div className="col-lg-4 col-md-6">
                 <ProductCard/> 
             </div>
+            <div className="col-lg-4 col-md-6 ">
+                <ProductCard/> 
+            </div>
+            <div className="col-lg-4 col-md-6  ">
+                <ProductCard/> 
+            </div>
+        </div>
+        
+        <div className="row justify-content-center">
+        <a href="#" className="btn btn-lg btn-outline-dark mb-3 mt-4 mx-auto"> Load More</a>
+        </div>
+        
         </div>
         <Footer/>
     </>

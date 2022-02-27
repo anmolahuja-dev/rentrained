@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
+import { NavLink } from 'react-router-dom';
 import '../../css/navbar.css';
 
-function Navbar() {
+function Navbar(props) {
   return (
     <nav
       className='navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light'
@@ -42,38 +43,38 @@ function Navbar() {
         </button>
         <div className='collapse navbar-collapse' id='ftco-nav'>
           <ul className='navbar-nav m-auto'>
-            <li className='nav-item active'>
+            <NavLink to='/' activeClassName='active' className='nav-item '>
               <a href='/' className='nav-link'>
                 Home
               </a>
-            </li>
+            </NavLink>
             
-            <li className='nav-item'>
+            <NavLink to='/about' className='nav-item'>
               <a href='/about' className='nav-link'>
                 About
               </a>
-            </li>
-            <li className='nav-item'>
+            </NavLink>
+            <NavLink to='/store' className='nav-item'>
               <a href='/store' className='nav-link'>
                 Store
               </a>
-            </li>
-            <li className='nav-item'>
-              <a href='/contact' className='nav-link'>
+            </NavLink>
+            <NavLink to='/contact' className='nav-item'>
+              <a className='nav-link'>
                 Contact
               </a>
-            </li>
+            </NavLink>
             
-            <li className='nav-item '>
-              <a href='/signup' className='nav-link'>
+            <NavLink to='signup' className='nav-item '>
+              <a  className='nav-link'>
                 Sign Up
               </a>
-            </li>
-            <li className='nav-item'>
-              <a href='/login' className='nav-link'>
+            </NavLink>
+            <NavLink to='/login' className='nav-item'>
+              <a className='nav-link'>
                 Log In
               </a>
-            </li>
+            </NavLink>
           </ul>
         </div>
       </div>

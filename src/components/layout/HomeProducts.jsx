@@ -18,17 +18,31 @@ function HomeProducts() {
        
       </div>
       
-      <div classNameName='d-inline'>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+      <div className="row mt-3 mb-4">
+        <div className="col-md-4">
+          <ProductCard/>
+        </div>
+        <div className="col-md-4">
+          <ProductCard/>
+        </div>
+        <div className="col-md-4">
+          <ProductCard/>
+        </div>
       </div>
+      <div className="row mb-4">
+        <div className="col-md-4">
+          <ProductCard/>
+        </div>
+        <div className="col-md-4">
+          <ProductCard/>
+        </div>
+        <div className="col-md-4">
+          <ProductCard/>
+        </div>
+      </div>
+      
       <div className="row justify-content-center">
       <a href="#" className="btn btn-lg btn-outline-warning mb-3 mt-4 mx-auto"> Discover More</a>
-
       </div>
     </div>
   );
